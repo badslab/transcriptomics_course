@@ -1,0 +1,26 @@
+name: myenv
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.12
+  - jupyter
+  - bioconductor-apeglm
+  - bioconductor-deseq2
+  - fastqc
+  - ipython
+  - r-ggplot2
+  - samtools
+  - yq
+  - r-irkernel
+  - bash_kernel
+  - star
+  - ipykernel
+  - r-tidyverse
+  - pip:
+    - scanpy
+    - matplotlib
+    - pandas
+    - numpy
+    - seaborn
+    - statsmodels

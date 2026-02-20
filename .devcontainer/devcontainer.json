@@ -1,0 +1,13 @@
+{
+    "name": "MF Transcriptomics course",
+    "image": "mcr.microsoft.com/devcontainers/miniconda:latest",
+    "postCreateCommand": "conda env create -f environment.yml && conda run -n mf python -m ipykernel install --user --name mf",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-toolsai.jupyter"
+            ]
+        }
+    }
+}
